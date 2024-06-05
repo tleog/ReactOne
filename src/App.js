@@ -1,6 +1,7 @@
 import './App.css';
-import {User} from './User';
-import {Question} from './Question';
+import {useState} from 'react';
+/*import {User} from './User';
+import {Question} from './Question';*/
 /* This shows how to map a list using react. 
 function App() {
   const names = ["Tom","Jessia","jack","tomas","judy"]
@@ -24,7 +25,9 @@ function App() {
     {name: "Derrick", age: 12},
 
   ];
-  /*this section of code uses the object list created above and also FUNCTIONAL components. the <user> component is JSX code that creates a <USer> like <p> for example and it populates it with the info from user.name sequentially through the list
+  /*this section of code uses the object list created above and also FUNCTIONAL components. the <user> 
+  component is JSX code that creates a <USer> like <p> for example and it populates it with the info from 
+  user.name sequentially through the list
   return ( 
     <div> 
       {users.map((user, key) => {
@@ -59,13 +62,13 @@ function App() {
   );
 };
 */
-
+/*
 function App() {    
 
   const quiz = [
-    {Question: "What is the first day of the week?", Answer: "Monday"},
-    {Question: "What is the 2nd day of the week?", Answer: "tues"},
-    {Question: "What is the 3rd day of the week?", Answer: "wed"}
+    {Question: "What is the first day of the week?", Answer: " Monday"},
+    {Question: "What is the 2nd day of the week?", Answer: " tues"},
+    {Question: "What is the 3rd day of the week?", Answer: " wed"}
 
   ];
 return(
@@ -80,6 +83,15 @@ return(
 
 
 };
+*/
+
+function App(){
+
+
+ return (
+  <div className="App">   </div>
+  );
+}
 
 
 export default App;
